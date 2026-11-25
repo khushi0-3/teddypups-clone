@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TeddyPups U.A.E. | Premium teacup puppies in Dubai</title>
+  <meta name="description" content="Meet your new best friend in our Dubai showroom, or order a rare miniature breed from trusted breeders worldwide.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="topbar">
+    <p>every puppy is family</p>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a class="logo" href="#home" aria-label="TeddyPups U.A.E. home">
+        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#fbf8f3" stroke="#8c5a3c" stroke-width="3"/>
+          <circle cx="13" cy="14" r="5" fill="#c98a5b"/>
+          <circle cx="35" cy="14" r="5" fill="#c98a5b"/>
+          <circle cx="24" cy="26" r="12" fill="#e0a56f"/>
+          <circle cx="19.5" cy="23" r="1.8" fill="#2c221e"/>
+          <circle cx="28.5" cy="23" r="1.8" fill="#2c221e"/>
+          <ellipse cx="24" cy="29" rx="3.2" ry="2.3" fill="#2c221e"/>
+        </svg>
+        <span class="logo__text">TeddyPups</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link is-active">Home</a></li>
+          <li><a href="puppies.html" class="nav__link">Puppies</a></li>
+          <li><a href="#happy-families" class="nav__link">Happy families</a></li>
+          <li><a href="how-it-works.html" class="nav__link">How it works</a></li>
+          <li><a href="faq.html" class="nav__link">FAQ</a></li>
+          <li><a href="contact.html" class="nav__link">Visit &amp; contact</a></li>
+        </ul>
+        <a class="btn btn--whatsapp nav__cta-mobile" href="https://wa.me/971000000000" target="_blank" rel="noopener">WhatsApp us</a>
+      </nav>
+
+      <a class="btn btn--whatsapp nav__cta" href="https://wa.me/971000000000" target="_blank" rel="noopener">WhatsApp us</a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <p class="hero__tagline">every puppy is family</p>
+      <h1 class="hero__title">Premium teacup puppies in Dubai</h1>
+      <p class="hero__lead">Meet your new best friend in our Dubai showroom, or order a rare miniature breed from trusted breeders worldwide.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="puppies.html">View available puppies</a>
+        <a class="btn btn--outline" href="https://wa.me/971000000000" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+      </div>
+      <div class="strip">
+        <ul class="strip__row" id="featuredRow" aria-label="Featured puppies"></ul>
+        <div class="strip__scallop" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="pups" id="puppies">
+      <div class="pups__scroll" id="pupScroll">
+        <div class="pups__sticky">
+          <header class="pups__inner pups__head">
+            <div>
+              <h2 class="pups__title">Meet the pups</h2>
+              <p class="pups__sub">Real puppies, real photos, looking for their families right now.</p>
+            </div>
+            <a class="btn btn--primary" href="https://wa.me/971000000000?text=Hi%21%20I%27d%20like%20to%20see%20all%20your%20available%20puppies." target="_blank" rel="noopener">See all available puppies</a>
+          </header>
+          <div class="pups__track" tabindex="0" aria-label="Available puppies, scroll sideways">
+            <ul class="grid" id="pupGrid"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ways" id="two-ways">
+      <h2 class="ways__title">Two ways to meet your puppy</h2>
+      <div class="ways__stage">
+        <div class="ways__signs" aria-hidden="true">
+          <span class="sign sign--left">Puppies in Dubai</span>
+          <span class="sign sign--right">Imported for you</span>
+        </div>
+        <div class="ways__post" aria-hidden="true"></div>
+        <div class="ways__split">
+          <article class="way way--local">
+            <h3 class="visually-hidden">Puppies in Dubai</h3>
+            <div class="way__scene">
+              <svg class="skyline" viewBox="0 0 640 240" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+                <path d="M4 236H636M30 236V130H70V236M96 236V96H132V236M150 236V200H186V236M214 236V70l14-30 14 30V236M290 236V120l34 14V236M352 236V170H392V236M420 236V90H460V236M476 236V150H520V236"/>
+              </svg>
+              <figure class="shop">
+                <div class="shop__awning"></div>
+                <div class="shop__photo"><img src="image/max.jpg" alt="A puppy in our Dubai showroom" onerror="this.remove()"></div>
+                <figcaption>In our showroom</figcaption>
+              </figure>
+            </div>
+            <p>See them, love them, take them home. Come meet our locally available puppies before you decide.</p>
+            <a class="btn btn--primary" href="#puppies">Meet local puppies</a>
+          </article>
+
+          <article class="way way--import">
+            <h3 class="visually-hidden">Imported for you</h3>
+            <div class="way__scene">
+              <svg class="route" viewBox="0 0 560 280" aria-hidden="true">
+                <path d="M70 230C170 60 330 -10 470 150" fill="none" stroke="#a8501f" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 9"/>
+                <circle cx="70" cy="230" r="7" fill="#a8501f"/><circle cx="470" cy="150" r="7" fill="#a8501f"/>
+                <text x="70" y="262" text-anchor="middle">Korea</text>
+                <text x="470" y="182" text-anchor="middle">Dubai</text>
+              </svg>
+              <div class="plane" aria-hidden="true">
+                <svg viewBox="0 0 140 100"><g stroke="#2c221e" stroke-width="3" stroke-linejoin="round"><path d="M70 40L40 8l18-2 30 32z" fill="#b8604a"/><path d="M70 62L40 94l18 2 32-32z" fill="#a8501f"/><path d="M26 38L10 22l16-2 14 18z" fill="#b8604a"/><ellipse cx="78" cy="50" rx="52" ry="20" fill="#fbf8f3"/></g></svg>
+                <span class="plane__window"><img src="image/Luna.jpg" alt="" onerror="this.remove()"></span>
+              </div>
+            </div>
+            <p>Exclusive Korean teacup puppies, delivered. Order from the world's most reputable breeders and let us handle the import.</p>
+            <a class="btn btn--primary" href="https://wa.me/971000000000?text=Hi%21%20I%27d%20like%20to%20order%20an%20imported%20puppy." target="_blank" rel="noopener">See imported puppies</a>
+          </article>
+        </div>
+        <div class="ways__mascot" data-mascot aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="journey" id="how-it-works">
+      <div class="journey__inner">
+        <div class="journey__steps">
+          <h2 class="journey__title">Your puppy journey</h2>
+          <p class="journey__sub">A premium, step-by-step concierge experience. We make adoption simple, secure, and purely joyful.</p>
+          <ol class="steps">
+            <li class="step-item"><button class="step is-active" type="button" data-step="0" aria-current="step">
+              <span class="step__num">1</span>
+              <span class="step__body"><strong>Choose your breed</strong><span>Select your preferred breed or tell us what you're looking for. We'll guide you based on availability and your lifestyle.</span></span>
+            </button></li>
+            <li class="step-item"><button class="step" type="button" data-step="1">
+              <span class="step__num">2</span>
+              <span class="step__body"><strong>Get photos &amp; details</strong><span>Our team will share real photos, health details, and all necessary information directly on WhatsApp.</span></span>
+            </button></li>
+            <li class="step-item"><button class="step" type="button" data-step="2">
+              <span class="step__num">3</span>
+              <span class="step__body"><strong>Secure &amp; safe delivery</strong><span>Once confirmed, we handle everything professionally and ensure your puppy reaches you safely and stress-free.</span></span>
+            </button></li>
+          </ol>
+          <a class="btn btn--outline" href="https://wa.me/971000000000" target="_blank" rel="noopener">Start on WhatsApp</a>
+        </div>
+        <div class="journey__phone">
+          <div class="phone">
+            <div class="phone__head"><span class="phone__avatar"></span><div><strong>TeddyPups U.A.E.</strong><small>online</small></div></div>
+            <div class="chat" id="chat" aria-live="polite"></div>
+            <a class="phone__input" id="phoneSend" href="https://wa.me/971000000000" target="_blank" rel="noopener">
+              <span>Say hello on WhatsApp</span>
+              <span class="phone__send"><svg viewBox="0 0 24 24" width="20" height="20" fill="#fff" aria-hidden="true"><path d="M3 20.5v-6.8l9-1.7-9-1.7V3.5L22 12z"/></svg></span>
+            </a>
+          </div>
+          <div class="journey__mascot" data-mascot aria-hidden="true"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 4-BOX TRUST SECTION -->
+    <section class="trust" id="trust">
+      <div class="trust__inner">
+        <header class="trust__head">
+          <h2>Why families trust TeddyPups</h2>
+          <p>Every puppy is raised with love, thoroughly vetted, and backed by transparent care.</p>
+        </header>
+        <div class="trust__grid">
+          <article class="trust-box">
+            <span class="trust-box__icon" aria-hidden="true">🩺</span>
+            <h3>Licensed Vet Checked</h3>
+            <p>Verified health certificates, up-to-date vaccinations, deworming, and microchipping before handover.</p>
+          </article>
+          <article class="trust-box">
+            <span class="trust-box__icon" aria-hidden="true">🏡</span>
+            <h3>Ethical Partner Breeders</h3>
+            <p>Handpicked family-run breeders in Korea and the UAE focused on health, genetics, and sweet temperament.</p>
+          </article>
+          <article class="trust-box">
+            <span class="trust-box__icon" aria-hidden="true">✈️</span>
+            <h3>Stress-Free UAE Import</h3>
+            <p>Complete MOCCAE permits, airline clearance, and safe door-to-door arrival anywhere in the Emirates.</p>
+          </article>
+          <article class="trust-box">
+            <span class="trust-box__icon" aria-hidden="true">💬</span>
+            <h3>24/7 Family Guidance</h3>
+            <p>Dedicated WhatsApp support for feeding, grooming, and settling your new puppy into your home.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+     <!-- HAPPY FAMILIES & 8-PHOTO GALLERY -->
+    <section class="families" id="happy-families">
+      <div class="families__scallop" aria-hidden="true"></div>
+      <div class="families__inner">
+        <div class="families__top">
+          <div>
+            <h2 class="families__title">Happy families &amp; puppies</h2>
+            <p class="families__lead">We are truly honored to see our puppies become cherished members of loving families. These heartwarming moments have been shared by our valued clients who welcomed a Teddy Pup into their homes and hearts.</p>
+          </div>
+          <figure class="testimonial">
+            <blockquote>“TeddyPups truly made our dream a reality. They supported us at every step of the import journey. Our Maltipoo arrived healthy, cheerful, and absolutely perfect. Having 24/7 support throughout the process gave us complete peace of mind.”</blockquote>
+            <figcaption>Sarah M., Dubai, UAE</figcaption>
+          </figure>
+        </div>
+
+        <div class="families__shelf">
+          <div class="families__mascot" data-mascot aria-hidden="true"></div>
+          <ul class="polaroids">
+            <li class="polaroid"><img src="image/max.jpg" alt="Lulu with her new mummy"><p>Lulu 🧸 with her new mummy ❤️</p></li>
+            <li class="polaroid"><img src="image/mochi.jpg" alt="Adorable Maltipoo baby"><p>Adorable Maltipoo baby 🧸❤️</p></li>
+            <li class="polaroid"><img src="image/coco.jpg" alt="My new teddy puppy"><p>My new teddy puppy 🧸🐶</p></li>
+            <li class="polaroid"><img src="image/Biscuit.jpg" alt="Our new puppies"><p>Our new puppies 🧸🐶🤗</p></li>
+            <li class="polaroid"><img src="image/Teddy.jpg" alt="Welcome home in Dubai"><p>Welcome home in Dubai 🏡</p></li>
+            <li class="polaroid"><img src="image/Luna.jpg" alt="Fluffy Pomeranian family"><p>Fluffy Pomeranian family 🧡</p></li>
+            <li class="polaroid"><img src="image/Bella.jpg" alt="Teacup poodle cuddles"><p>Teacup poodle cuddles 🐾</p></li>
+            <li class="polaroid"><img src="image/Cleo.jpg" alt="@teddypups.official family"><p>@teddypups.official ❤️</p></li>
+          </ul>
+          <div class="families__cta">
+            <a class="btn btn--primary" href="https://wa.me" target="_blank" rel="noopener">See every happy family</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-QUESTION CLICKABLE FAQ ACCORDION -->
+    <section class="faq" id="faq">
+      <div class="faq__inner">
+        <div class="faq__side">
+          <h2 class="faq__title">Questions,<br>answered</h2>
+          <a class="btn btn--outline btn--outline-light" href="https://wa.me" target="_blank" rel="noopener">Read all questions</a>
+          <div class="faq__mascot" data-mascot aria-hidden="true"></div>
+        </div>
+
+        <div class="faq__list" id="faqAccordion">
+          <div class="faq-item is-open">
+            <button class="faq-item__q" type="button" aria-expanded="true">
+              <span><i aria-hidden="true">✦</i> Are your puppies vaccinated and health-checked?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__a">
+              <p>Yes. All our puppies come with a verified health certificate from licensed vets. Every puppy is vaccinated, dewormed, and thoroughly checked before joining your family.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__q" type="button" aria-expanded="false">
+              <span><i aria-hidden="true">✦</i> Can I meet a puppy before I decide?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__a" hidden>
+              <p>Yes. Come meet our locally available puppies in our Downtown Dubai showroom and spend time bonding before making your decision.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__q" type="button" aria-expanded="false">
+              <span><i aria-hidden="true">✦</i> Can I take my puppy home the same day?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__a" hidden>
+              <p>Local puppies are available immediately, so you can take your puppy home the same day.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+    <footer class="footer" id="contact">
+    <!-- Subtle crescent moon -->
+    <svg class="footer__moon" viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M40 8a24 24 0 1 0 18 39.8A20 20 0 0 1 40 8z" fill="#f7e3b5" />
+    </svg>
+
+    <div class="footer__inner">
+      <div class="footer__cta">
+        <h2>Ready to meet your new best friend?</h2>
+        <p>Bring home a healthy, happy teacup or designer puppy with expert guidance every step of the way. We help you find the right match and ensure a smooth, safe delivery across the UAE.</p>
+        <div class="footer__actions">
+          <a class="btn btn--whatsapp" href="https://wa.me" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+          <a class="btn btn--outline btn--outline-light" href="#contact">Visit &amp; contact</a>
+        </div>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__brand">
+          <h3>Home, at last.</h3>
+          <p>TeddyPups U.A.E. is a Dubai-based brand specializing in miniature puppies, offering premium services and worldwide shipping.</p>
+
+          <div class="basket-pup" aria-hidden="true">
+            <span class="basket-pup__bubble">hm?</span>
+            <svg viewBox="0 0 180 145">
+              <circle cx="62" cy="54" r="14" fill="#d99b52" stroke="#1e130d" stroke-width="3" />
+              <circle cx="118" cy="54" r="14" fill="#d99b52" stroke="#1e130d" stroke-width="3" />
+              <circle cx="78" cy="36" r="11" fill="#efb868" stroke="#1e130d" stroke-width="3" />
+              <circle cx="90" cy="33" r="12" fill="#efb868" stroke="#1e130d" stroke-width="3" />
+              <circle cx="102" cy="36" r="11" fill="#efb868" stroke="#1e130d" stroke-width="3" />
+              <ellipse cx="90" cy="56" rx="26" ry="22" fill="#efb868" stroke="#1e130d" stroke-width="3" />
+              <ellipse cx="90" cy="64" rx="13" ry="10" fill="#fbe6c2" stroke="#1e130d" stroke-width="2.5" />
+              <path d="M76 54 q4 4 8 0" fill="none" stroke="#1e130d" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M96 54 q4 4 8 0" fill="none" stroke="#1e130d" stroke-width="2.5" stroke-linecap="round" />
+              <ellipse cx="90" cy="61" rx="4" ry="3" fill="#1e130d" />
+              <path d="M85 67 q5 4 10 0" fill="none" stroke="#1e130d" stroke-width="2.2" stroke-linecap="round" />
+              <ellipse cx="70" cy="78" rx="9" ry="7" fill="#efb868" stroke="#1e130d" stroke-width="3" />
+              <ellipse cx="110" cy="78" rx="9" ry="7" fill="#efb868" stroke="#1e130d" stroke-width="3" />
+              <path d="M32 78 H148 L136 134 C135 138, 131 140, 126 140 H54 C49 140, 45 138, 44 134 Z" fill="#a86434" stroke="#1e130d" stroke-width="3" stroke-linejoin="round" />
+              <rect x="28" y="74" width="124" height="11" rx="5.5" fill="#c47a44" stroke="#1e130d" stroke-width="3" />
+              <path d="M36 96 H144 M39 110 H141 M42 124 H138" stroke="#1e130d" stroke-width="2.2" opacity="0.55" />
+              <path d="M62 85 V140 M90 85 V140 M118 85 V140" stroke="#1e130d" stroke-width="2.2" opacity="0.45" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="puppies.html">Available puppies</a></li>
+            <li><a href="#happy-families">Gone home</a></li>
+            <li><a href="#happy-families">Happy families</a></li>
+            <li><a href="how-it-works.html">How it works</a></li>
+            <li><a href="#two-ways">Delivery &amp; collection</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Visit &amp; contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Say hello</h4>
+          <ul>
+            <li><a href="https://wa.me" target="_blank" rel="noopener">WhatsApp +971 50 000 0000</a></li>
+            <li><a href="mailto:info@instabizweb.com">info@instabizweb.com</a></li>
+            <li>Downtown Dubai, United Arab Emirates</li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" target="_blank" rel="noopener">TikTok</a>
+            <a href="#" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>🐶 © 2026 TeddyPups U.A.E.</span>
+        <span class="footer__tagline">every puppy is family</span>
+      </div>
+    </div>
+  </footer>
+
+
+        <div class="footer__col">
+
+  <script src="script.js"></script>
+</body>
+</html>
